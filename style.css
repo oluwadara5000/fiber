@@ -145,3 +145,95 @@ margin: 0;
 .first-div div:nth-child(2) img{
   width: 100%;
 }
+
+.second-div{
+  padding: 0 150px;
+  padding-top: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-bottom: 80px;
+}
+
+.second-div > div:nth-child(1) p{
+color: #4D13D1;
+font-size: 18px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+
+.second-div > div:nth-child(1) h1{
+width: 500px;
+font-size: 35px;
+margin-bottom: 15px;
+}
+
+.second-div > div:nth-child(2) {
+  display: flex;
+  gap: 50px;
+}
+
+.second-div > div:nth-child(2) img{
+  margin-bottom: 10px;
+}
+
+.second-div > div:nth-child(2) div h1{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.second-div > div:nth-child(2) div p{
+  font-size: 18px;
+  line-height: 28px;
+  color: #686864;
+}
+
+.third-div{
+  margin: 0 150px;
+  padding: 0 45px;
+  padding-top: 45px;
+  background-color: #4D13D1;
+  display: flex;
+  border-radius: 10px;
+  gap: 55px;
+  margin-bottom: 80px;
+}
+
+.third-div div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  color: #ffffff;
+}
+
+.third-div div:nth-child(1) h1{
+  font-size: 36px;
+}
+
+.third-div div:nth-child(1) p{
+  width: 390px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 28px;
+}
+
+.third-div div:nth-child(1) button{
+  width: max-content;
+  color: #4D13D1;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 19px 25px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.third-div div:nth-child(2){
+  width: 580px;
+}
+
+.third-div div:nth-child(2) img{
+  width: inherit;
+}
+
