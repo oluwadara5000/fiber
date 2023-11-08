@@ -54,12 +54,13 @@ header div:nth-child(3) button:nth-child(1){
   margin-right: 50px;
 }
 
-header div:nth-child(3) button:nth-child(2){
+header div:nth-child(3) :nth-child(2) button{
   background-color: #4D13D1;
   padding: 19px 29px;
   border-radius: 5px;
   color: #ffffff;
   font-weight: 500;
+  margin: 0;
 }
 
 section > div:nth-child(2){
@@ -83,12 +84,13 @@ section > div:nth-child(2) div:nth-child(1) div:nth-child(1){
 section > div:nth-child(2) div:nth-child(1) div:nth-child(1) ul{
 display: flex;
 gap: 5px;
-align-items: center;
+align-items: start;
 }
 
 section > div:nth-child(2) div:nth-child(1) div:nth-child(1) ul > li{
 list-style-type: none;
 margin: 0;
+padding-top: 5px;
 }
 
 section > div:nth-child(2) div:nth-child(1) h1{
@@ -349,5 +351,36 @@ footer div:nth-child(2) ul > li:nth-child(1){
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
 }
 
