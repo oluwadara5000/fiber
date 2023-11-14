@@ -165,7 +165,7 @@ section > div:nth-child(1) > :nth-child(6) span{
 
 section > div:nth-child(2) {
   width: 720px;
-  background-image: radial-gradient(circle, #6E30F6, #4D13D1);
+  background-image: radial-gradient(circle, rgb(132, 114, 182), #4D13D1);
   padding: 0 95px;
   color: #ffffff;
   text-align: center;
