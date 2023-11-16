@@ -1931,3 +1931,266 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin-bottom: 5px;
   }
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 768px TO 990px */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+
+  header{
+    padding: 45px 60px;
+    padding-bottom: 0;
+  }
+
+  section > div:nth-child(2){
+    padding: 0 60px;
+    flex-direction: column-reverse;
+    padding-bottom: 70px;
+    gap: 35px;
+  }
+
+  section > div:nth-child(2) div:nth-child(1) {
+  width: 100%;
+}
+
+section > div:nth-child(2) div:nth-child(1) h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+section > div:nth-child(2) div:nth-child(2) {
+  width: 100%;
+}
+
+section > div:nth-child(2) div:nth-child(2) img {
+  width: 100%;
+}
+
+section > div:nth-child(3) {
+  padding: 0 60px;
+  padding-top: 85px;
+}
+
+section > div:nth-child(3) > div:nth-child(1) h1 {
+  width: 100%;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+section > div:nth-child(3) > div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+}
+
+section > div:nth-child(4) {
+  margin: 0 60px;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 35px;
+  margin-bottom: 80px;
+}
+
+section > div:nth-child(4) div:nth-child(2) {
+  width: 100%;
+}
+
+section > div:nth-child(5) {
+  width: 100%;
+  padding: 0 60px;
+}
+
+section > div:nth-child(5) > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+section > div:nth-child(5) > div > div {
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid #eaeaea;
+}
+
+footer {
+  background-color: #fbf8f3;
+  padding: 70px 60px;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+footer div:nth-child(2) {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  font-size: 18px;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1439px */
+
+@media screen and (min-width: 991px) and (max-width: 1439px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+
+  header{
+    padding: 45px 60px;
+    padding-bottom: 0;
+  }
+
+  section > div:nth-child(2){
+    padding: 0 60px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    gap: 35px;
+  }
+
+  section > div:nth-child(3) {
+  padding: 0 60px;
+  padding-top: 85px;
+}
+
+section > div:nth-child(3) > div:nth-child(1) h1 {
+  width: 100%;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+section > div:nth-child(3) > div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+}
+
+section > div:nth-child(4) {
+  margin: 0 60px;
+  border-radius: 10px;
+  gap: 35px;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+}
+
+section > div:nth-child(4) div:nth-child(2) {
+  width: 100%;
+}
+
+section > div:nth-child(5) {
+  width: 100%;
+  padding: 0 60px;
+}
+
+section > div:nth-child(5) > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+section > div:nth-child(5) > div > div {
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid #eaeaea;
+}
+
+footer {
+  background-color: #fbf8f3;
+  padding: 70px 60px;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+footer div:nth-child(2) {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  font-size: 18px;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1439px */
+
+@media screen and (min-width: 1200px){
+  section > div:nth-child(5) > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+footer div:nth-child(2) {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+  font-size: 18px;
+}
+}
