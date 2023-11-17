@@ -211,3 +211,318 @@ border-radius: 50%;
 section > div:nth-child(2) > div:nth-child(2) > :nth-child(3) span:nth-child(1) {
 background-color: white;
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  section > div:nth-child(1) {
+  width: 100%;
+  padding: 0 30px;
+  padding-top: 55px;
+}
+
+section > div:nth-child(1) > :nth-child(2) {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 28px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(4) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 27px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(5) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(5) {
+ font-size: 16px;
+}
+
+section > div:nth-child(1) > :nth-child(6) {
+ font-size: 16px;
+  margin-bottom: 90px;
+}
+
+section > div:nth-child(2) {
+  display: none;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 375px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 375px;
+    margin: auto;
+     flex-direction: column;
+    margin-top: 50px;
+  }
+
+  section > div:nth-child(1) {
+  width: 100%;
+  padding: 0 30px;
+  padding-top: 55px;
+}
+
+section > div:nth-child(1) > :nth-child(2) {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 28px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(4) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 27px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(5) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(5) {
+ font-size: 16px;
+}
+
+section > div:nth-child(1) > :nth-child(6) {
+ font-size: 16px;
+  margin-bottom: 90px;
+}
+
+section > div:nth-child(2) {
+  display: none;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  section > div:nth-child(1) {
+  width: 100%;
+  padding: 0 40px;
+  padding-top: 55px;
+}
+
+section > div:nth-child(1) > :nth-child(2) {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 28px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(4) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 27px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(5) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(5) {
+ font-size: 16px;
+}
+
+section > div:nth-child(1) > :nth-child(6) {
+ font-size: 16px;
+  margin-bottom: 90px;
+}
+
+section > div:nth-child(2) {
+  display: none;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 1439px */
+@media screen and (min-width: 526px) and (max-width: 1439px) {
+  section {
+    width: 525px;
+    margin: auto;
+flex-direction: column;
+    margin-top: 70px;
+  }
+
+  section > div:nth-child(1) {
+  width: 100%;
+  padding: 0 40px;
+  padding-top: 55px;
+}
+
+section > div:nth-child(1) > :nth-child(2) {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 28px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(4) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 27px;
+}
+
+section > div:nth-child(1) > :nth-child(3) > :nth-child(5) > :nth-child(2) {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 16px 15px;
+  margin-bottom: 25px;
+}
+
+section > div:nth-child(1) > :nth-child(5) {
+ font-size: 16px;
+}
+
+section > div:nth-child(1) > :nth-child(6) {
+ font-size: 16px;
+  margin-bottom: 90px;
+}
+
+section > div:nth-child(2) {
+  display: none;
+}
+}
