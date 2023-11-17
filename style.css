@@ -726,9 +726,13 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin: auto;
   }
 
-  header div:nth-child(5) {
+   header div:nth-child(5) {
     display: block;
+    color: #4d13d1;
+    font-weight: 900;
+    font-size: 20px;
   }
+
 
   header {
     padding: 35px;
@@ -985,9 +989,16 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin: auto;
   }
 
-  header div:nth-child(5) {
+   header div:nth-child(5) {
     display: block;
+    color: #4d13d1;
+    font-weight: 900;
+    font-size: 20px;
   }
+
+header div:nth-child(1){
+  top: 80px;
+}
 
   header {
     padding: 45px;
@@ -1244,9 +1255,16 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin: auto;
   }
 
-  header div:nth-child(5) {
+   header div:nth-child(5) {
     display: block;
+    color: #4d13d1;
+    font-weight: 900;
+    font-size: 20px;
   }
+
+  header div:nth-child(1){
+  top: 90px;
+}
 
   header {
     padding: 52px;
@@ -1504,9 +1522,16 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin: auto;
   }
 
-  header div:nth-child(5) {
+   header div:nth-child(5) {
     display: block;
+    color: #4d13d1;
+    font-weight: 900;
+    font-size: 20px;
   }
+
+  header div:nth-child(1){
+  top: 90px;
+}
 
   header {
     padding: 60px;
@@ -1764,9 +1789,16 @@ footer div:nth-child(2) ul > li:nth-child(1) {
     margin: auto;
   }
 
-  header div:nth-child(5) {
+   header div:nth-child(5) {
     display: block;
+    color: #4d13d1;
+    font-weight: 900;
+    font-size: 20px;
   }
+
+  header div:nth-child(1){
+  top: 100px;
+}
 
   header {
     padding: 68px;
